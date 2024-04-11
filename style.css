@@ -1,0 +1,137 @@
+/* reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* CSS for the landing page*/
+
+
+.header-section{
+  height: 500px;
+  background: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  }
+
+.logo-nav-container {
+  display: flex;
+  flex: 1;  
+  justify-content: space-between;
+   
+}
+
+.logo-nav-container,
+.hero-section {
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-right: 10%;  
+}
+
+.logo {
+  font-family:  Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
+}
+
+.nav-links{
+  display: flex;
+  gap: 20px;
+  margin-right:  px;
+}
+
+.nav-links a {
+  text-decoration: none;
+   padding: 0 10px;
+}
+
+
+.hero-section {
+  display: flex;      
+}
+
+.hero-section div {
+  width: 50%;
+}
+
+.hero-section .main-text {
+   font-family: roboto;
+   font-size: 48px;
+   font-weight: 900;
+   color: #F9FAF8;
+   padding: 5px;
+}
+
+.nav-links a,
+.hero-section .secondary-text {
+  font-size: 18px;
+  color: #E5E7EB; 
+}
+
+.hero-section .secondary-text {
+  display: block;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.hero-section button {
+  background: #3882F6;
+  color: #E5E7EB;
+  padding: 8px 34px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 15px ;
+}
+
+.hero-section img {
+  height: 200px;
+  display: block;
+  border: 1px solid whitesmoke;
+  background-color: gray;
+  text-align: center;
+  color: white;  
+}
