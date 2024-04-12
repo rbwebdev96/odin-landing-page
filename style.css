@@ -59,22 +59,19 @@ table {
 .logo-nav-container {
   display: flex;
   flex: 1;  
-  justify-content: space-between;
-   
+  justify-content: space-between; 
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 24px;
 }
 
-.logo-nav-container,
-.hero-section {
-  margin-top: 25px;
-  margin-left: 10%;
-  margin-right: 10%;  
-}
 
 .logo {
   font-family:  Roboto;
   font-size: 24px;
   font-weight: 700;
   color: #F9FAF8;
+  padding: 0 10px;
 }
 
 .nav-links{
@@ -87,14 +84,24 @@ table {
   text-decoration: none;
    padding: 0 10px;
 }
+ 
 
 
 .hero-section {
-  display: flex;      
+  display: flex;
+  gap: 30px;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 10%;
+  margin-bottom: 10%;     
 }
 
-.hero-section div {
-  width: 50%;
+.hero-section .hero-text-container {
+  width: 45%;
+}
+
+.hero-section .image-container {
+  width: 55%;
 }
 
 .hero-section .main-text {
@@ -107,6 +114,7 @@ table {
 
 .nav-links a,
 .hero-section .secondary-text {
+  font-family: roboto;
   font-size: 18px;
   color: #E5E7EB; 
 }
@@ -120,15 +128,16 @@ table {
 .hero-section button {
   background: #3882F6;
   color: #E5E7EB;
-  padding: 8px 34px;
-  border-radius: 8px;
+  padding: 8px 40px;
+  border: 2px solid #3882F6;
+  border-radius: 10px;
   font-size: 18px;
   font-weight: 700;
   margin-top: 15px ;
 }
 
 .hero-section img {
-  height: 200px;
+  height: 230px;
   display: block;
   border: 1px solid whitesmoke;
   background-color: gray;
