@@ -168,8 +168,14 @@ table {
 
 .section-info {
   max-width: 200px;
+  border: 2px solid #3882F6;
+  border-radius: 10px;
 }
 
+.section-info img {
+  height: 200px;
+  width: 200px;
+}
 
 /* Quote section */
 
@@ -195,4 +201,43 @@ blockquote footer {
 blockquote p,
 blockquote footer {
   margin: 2%  17%;
+}
+
+
+/* Quote Section */
+
+
+.cta-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882F6;  
+  margin: 80px 120px;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.cta-container p{
+  font: roboto;
+  font-size: 32px;
+  font-weight: 900;
+  color: #E5E7EB; 
+  padding: 40px 30px;
+}
+
+.cta-container span {
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.cta-container button {
+   margin: 50px;
+   padding: 8px 40px;
+   background-color: #3882F6;;
+   border: 2px solid #E5E7EB; 
+   border-radius: 8px;
+   color: #E5E7EB;
+   font-size: 16px;
+   font-weight: 700;
 }
